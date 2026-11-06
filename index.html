@@ -116,18 +116,22 @@
         <div class="flex items-center gap-3.5 shrink-0 bg-white/10 backdrop-blur-md p-2.5 sm:p-3 rounded-3xl border border-amber-400/35 shadow-xl shadow-emerald-950/40">
           
           <!-- Logo 1: Kemenag RI (Hanya Logo Bersih) -->
-          <div class="bg-white/95 p-2 sm:p-2.5 rounded-2xl shadow-md border border-emerald-300/40 w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center hover:scale-105 transition-all">
-            <img src="https://drive.google.com/file/d/1qYUD21Bx0q2YtyINzxEEQfogWVn37ASy/view?usp=sharing" 
-                 onerror="this.classList.add('hidden'); this.nextElementSibling.classList.remove('hidden');">
+          <div class="bg-white/95 p-1.5 sm:p-2 rounded-2xl shadow-md border border-emerald-300/40 w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center hover:scale-105 transition-all overflow-hidden">
+            <img src="https://drive.google.com/thumbnail?id=1qYUD21Bx0q2YtyINzxEEQfogWVn37ASy&sz=w500" 
+                 alt="Logo Kemenag RI"
+                 class="max-h-full max-w-full object-contain rounded-lg"
+                 onerror="if(!this.dataset.fallback){this.dataset.fallback='1';this.src='https://lh3.googleusercontent.com/d/1qYUD21Bx0q2YtyINzxEEQfogWVn37ASy';}else{this.classList.add('hidden');this.nextElementSibling.classList.remove('hidden');}">
             <div class="hidden flex items-center justify-center text-emerald-800">
               <i class="fa-solid fa-mosque text-2xl sm:text-3xl"></i>
             </div>
           </div>
 
           <!-- Logo 2: Tim Pengembang Literasi (Hanya Logo Bersih) -->
-          <div class="bg-white/95 p-2 sm:p-2.5 rounded-2xl shadow-md border border-emerald-300/40 w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center hover:scale-105 transition-all">
-            <img src="https://drive.google.com/file/d/1l1j9oQI2lhiZb5bUq33g1MmdKNe7ZfD-/view?usp=drive_link" 
-                 onerror="this.classList.add('hidden'); this.nextElementSibling.classList.remove('hidden');">
+          <div class="bg-white/95 p-1.5 sm:p-2 rounded-2xl shadow-md border border-emerald-300/40 w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center hover:scale-105 transition-all overflow-hidden">
+            <img src="https://drive.google.com/thumbnail?id=1l1j9oQI2lhiZb5bUq33g1MmdKNe7ZfD-&sz=w500" 
+                 alt="Logo Tim Pengembang Literasi Provinsi Gorontalo"
+                 class="max-h-full max-w-full object-contain rounded-full"
+                 onerror="if(!this.dataset.fallback){this.dataset.fallback='1';this.src='https://lh3.googleusercontent.com/d/1l1j9oQI2lhiZb5bUq33g1MmdKNe7ZfD-';}else{this.classList.add('hidden');this.nextElementSibling.classList.remove('hidden');}">
             <div class="hidden flex items-center justify-center text-emerald-800">
               <i class="fa-solid fa-book-open-reader text-2xl sm:text-3xl"></i>
             </div>
