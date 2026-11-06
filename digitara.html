@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendaftaran DIGITARA 2025 - Kanwil Kemenag Gorontalo</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #f0fdf4;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #a7f3d0;
+      border-radius: 4px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background: #6ee7b7;
+    }
+    /* Latar Belakang Form Keseluruhan: Pola Geometris Bintang 8 Islami (Rub el Hizb) */
+    .islamic-bg {
+      background-color: #f1f7f4;
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(16, 185, 129, 0.12) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(217, 119, 6, 0.08) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(5, 150, 105, 0.05) 0px, transparent 60%),
+        url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23059669' fill-opacity='0.045' fill-rule='evenodd'%3E%3Cpath d='M40 0l10 10h10v10l10 10-10 10v10H50l-10 10-10-10H20V40L10 30l10-10V10h10L40 0zm0 14.14L32.93 21.2H21.2v11.73L14.14 40l7.07 7.07V58.8h11.73L40 65.86l7.07-7.07H58.8V47.07L65.86 40l-7.07-7.07V21.2H47.07L40 14.14zM40 28a12 12 0 1 1 0 24 12 12 0 0 1 0-24zm0 6a6 6 0 1 0 0 12 6 6 0 0 0 0-12z'/%3E%3C/g%3E%3C/svg%3E");
+    }
+    /* Latar Belakang Judul Banner: Gradien Hijau Zamrud Tua & Aksen Emas dengan Ornamen Tessellation Islami */
+    .islamic-header-pattern {
+      background-color: #032b20;
+      background-image: 
+        radial-gradient(ellipse at 85% 20%, rgba(245, 158, 11, 0.22), transparent 55%),
+        radial-gradient(ellipse at 15% 90%, rgba(16, 185, 129, 0.28), transparent 55%),
+        url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2334d399' fill-opacity='0.075' fill-rule='evenodd'%3E%3Cpath d='M40 0l10 10h10v10l10 10-10 10v10H50l-10 10-10-10H20V40L10 30l10-10V10h10L40 0zm0 14.14L32.93 21.2H21.2v11.73L14.14 40l7.07 7.07V58.8h11.73L40 65.86l7.07-7.07H58.8V47.07L65.86 40l-7.07-7.07V21.2H47.07L40 14.14zM40 28a12 12 0 1 1 0 24 12 12 0 0 1 0-24zm0 6a6 6 0 1 0 0 12 6 6 0 0 0 0-12z'/%3E%3C/g%3E%3C/svg%3E");
+    }
+  </style>
+</head>
+<body class="islamic-bg text-slate-800 antialiased min-h-screen py-8 px-4 sm:px-6 lg:px-8">
+
+  <!-- ========================================== -->
+  <!-- KONFIGURASI GOOGLE APPS SCRIPT URL         -->
+  <!-- Tempelkan URL Web App GAS Anda di bawah ini -->
+  <!-- ========================================== -->
+  <script>
+    const GAS_URL = "https://script.google.com/macros/s/AKfycbxYOUR_SCRIPT_ID_HERE/exec";
+  </script>
+
+  <div class="max-w-4xl mx-auto">
+    <!-- Header Banner Elegan Bernuansa Keislaman & Kemewahan Emas-Hijau -->
+    <div class="islamic-header-pattern rounded-3xl shadow-2xl p-6 sm:p-10 text-white relative overflow-hidden mb-8 border border-amber-400/30">
+      
+      <!-- Ornamen Siluet Kubah / Mihrab Islami di Latar Belakang -->
+      <div class="absolute -right-10 -bottom-14 w-72 h-72 text-emerald-400/10 pointer-events-none">
+        <svg viewBox="0 0 100 100" fill="currentColor">
+          <path d="M50 0 C25 25 20 50 20 100 L80 100 C80 50 75 25 50 0 Z" />
+          <circle cx="50" cy="50" r="18" fill="none" stroke="currentColor" stroke-width="2" />
+        </svg>
+      </div>
+      <div class="absolute -left-12 -top-12 w-60 h-60 text-amber-400/10 pointer-events-none">
+        <svg viewBox="0 0 100 100" fill="currentColor">
+          <polygon points="50,10 61,23 78,16 78,34 94,43 85,58 94,73 78,82 78,100 61,93 50,106 39,93 22,100 22,82 6,73 15,58 6,43 22,34 22,16 39,23" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
+      </div>
+
+      <!-- Area Judul dan Logo Berdampingan di Kanan -->
+      <div class="relative z-10 flex flex-col md:flex-row items-center md:items-start justify-between gap-6">
+        
+        <!-- Sisi Kiri: Identitas Resmi, Judul & Subjudul -->
+        <div class="flex-1 text-center md:text-left">
+          
+          <!-- Badge Nomor SK & Kemenag RI -->
+          <div class="inline-flex items-center gap-2.5 bg-gradient-to-r from-emerald-950/90 via-emerald-900/80 to-amber-950/80 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-amber-300 border border-amber-400/40 shadow-sm mb-3.5">
+            <i class="fa-solid fa-star-and-crescent text-amber-400"></i>
+            <span>SK KAKANWIL 031 TAHUN 2025</span>
+            <span class="text-emerald-400/60">&bull;</span>
+            <span class="text-emerald-200 font-medium">Provinsi Gorontalo</span>
+          </div>
+
+          <!-- Judul Kegiatan -->
+          <div class="flex items-center justify-center md:justify-start gap-3">
+            <h1 class="text-3xl sm:text-5xl font-black tracking-tight leading-tight text-white drop-shadow-md">
+              DIGITARA 2025
+            </h1>
+            <span class="text-amber-400 text-2xl sm:text-3xl drop-shadow-sm" title="Ornamen Bintang Islami">
+              <i class="fa-solid fa-bahai"></i>
+            </span>
+          </div>
+
+          <p class="text-sm sm:text-lg font-medium text-emerald-100/90 mt-2 max-w-2xl leading-relaxed">
+            Digitalisasi Konten Pembelajaran Interaktif Literasi dan Numerasi
+          </p>
+
+          <!-- Afiliasi Lembaga -->
+          <div class="flex flex-wrap items-center justify-center md:justify-start gap-2.5 text-xs sm:text-sm text-emerald-300/90 mt-4 pt-4 border-t border-emerald-700/50 font-medium">
+            <span class="inline-flex items-center gap-1.5">
+              <i class="fa-solid fa-mosque text-amber-400"></i> Kanwil Kemenag Provinsi Gorontalo
+            </span>
+            <span class="hidden sm:inline text-emerald-500">&bull;</span>
+            <span class="inline-flex items-center gap-1.5">
+              <i class="fa-solid fa-book-open-reader text-emerald-400"></i> Tim Pengembang Literasi Provinsi Gorontalo
+            </span>
+          </div>
+        </div>
+
+        <!-- Sisi Kanan: Dua Logo Saling Berdampingan Tanpa Tulisan Apapun -->
+        <div class="flex items-center gap-3.5 shrink-0 bg-white/10 backdrop-blur-md p-2.5 sm:p-3 rounded-3xl border border-amber-400/35 shadow-xl shadow-emerald-950/40">
+          
+          <!-- Logo 1: Kemenag RI (Hanya Logo Bersih) -->
+          <div class="bg-white/95 p-2 sm:p-2.5 rounded-2xl shadow-md border border-emerald-300/40 w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center hover:scale-105 transition-all">
+            <img src="img/logo-kemenag.png" alt="Logo Kemenag" class="max-h-full max-w-full object-contain" 
+                 onerror="this.classList.add('hidden'); this.nextElementSibling.classList.remove('hidden');">
+            <div class="hidden flex items-center justify-center text-emerald-800">
+              <i class="fa-solid fa-mosque text-2xl sm:text-3xl"></i>
+            </div>
+          </div>
+
+          <!-- Logo 2: Tim Pengembang Literasi (Hanya Logo Bersih) -->
+          <div class="bg-white/95 p-2 sm:p-2.5 rounded-2xl shadow-md border border-emerald-300/40 w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center hover:scale-105 transition-all">
+            <img src="img/logo-tpl.png" alt="Logo Tim Pengembang Literasi" class="max-h-full max-w-full object-contain" 
+                 onerror="this.classList.add('hidden'); this.nextElementSibling.classList.remove('hidden');">
+            <div class="hidden flex items-center justify-center text-emerald-800">
+              <i class="fa-solid fa-book-open-reader text-2xl sm:text-3xl"></i>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Petunjuk Teknis Singkat dengan Sentuhan Islami -->
+    <div class="bg-white/95 backdrop-blur-md rounded-2xl p-5 sm:p-6 shadow-sm border border-emerald-200/80 mb-8 transition-all hover:shadow-md relative overflow-hidden">
+      <div class="absolute -right-6 -bottom-6 w-24 h-24 text-emerald-600/5 pointer-events-none">
+        <i class="fa-solid fa-star-and-crescent text-6xl"></i>
+      </div>
+      <h2 class="text-xs sm:text-sm font-bold text-emerald-900 uppercase tracking-wider mb-3 flex items-center gap-2">
+        <span class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center text-xs">
+          <i class="fa-solid fa-circle-info"></i>
+        </span>
+        Ketentuan Pengiriman Media Karya
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5 text-xs sm:text-sm">
+        <div class="flex items-start gap-2.5 p-3 rounded-xl bg-emerald-50/60 border border-emerald-100">
+          <i class="fa-solid fa-layer-group text-emerald-600 mt-0.5"></i>
+          <span class="text-slate-700">Setiap peserta dapat mengirimkan <strong>minimal 1 dan maksimal 5 media</strong>.</span>
+        </div>
+        <div class="flex items-start gap-2.5 p-3 rounded-xl bg-amber-50/70 border border-amber-200/90">
+          <i class="fa-solid fa-building-columns text-amber-600 mt-0.5"></i>
+          <span class="text-slate-700">Jika mendaftar <strong>> 1 media</strong>, salah satu karya <strong class="text-rose-600">wajib terintegrasi Keuangan & Kebanksentralan</strong>.</span>
+        </div>
+        <div class="flex items-start gap-2.5 p-3 rounded-xl bg-teal-50/60 border border-teal-100">
+          <i class="fa-solid fa-file-zipper text-teal-600 mt-0.5"></i>
+          <span class="text-slate-700">Format unggahan berkas berupa arsip <strong>.ZIP</strong> dengan kapasitas <strong>maks. 25 MB</strong> per karya.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Form Utama -->
+    <form id="digitaraForm" class="space-y-8" onsubmit="event.preventDefault(); handleSubmit();">
+      
+      <!-- DATA IDENTITAS PESERTA -->
+      <div class="bg-white/95 backdrop-blur-md rounded-3xl shadow-sm border border-emerald-100 p-6 sm:p-8 transition-all">
+        <h2 class="text-base sm:text-lg font-bold text-slate-800 mb-6 pb-3 border-b border-slate-100 flex items-center gap-3">
+          <span class="w-8 h-8 rounded-xl bg-gradient-to-br from-emerald-600 to-teal-700 text-white flex items-center justify-center text-sm font-bold shadow-md shadow-emerald-700/20">1</span>
+          Identitas Peserta
+        </h2>
+
+        <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
+          <div class="sm:col-span-2">
+            <label for="namaLengkap" class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1.5">
+              Nama Lengkap & Gelar <span class="text-rose-500">*</span>
+            </label>
+            <input type="text" id="namaLengkap" required placeholder="Contoh: Ahmad Fauzan, S.Pd., M.Pd." 
+                   class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 text-sm transition">
+          </div>
+
+          <div class="sm:col-span-2">
+            <label for="asalSekolah" class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1.5">
+              Asal Madrasah / Sekolah <span class="text-rose-500">*</span>
+            </label>
+            <input type="text" id="asalSekolah" required placeholder="Contoh: MAN 1 Kota Gorontalo / MTsN 1 Bone Bolango" 
+                   class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 text-sm transition">
+          </div>
+
+          <div>
+            <label for="noWhatsapp" class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1.5">
+              Nomor WhatsApp Aktif <span class="text-rose-500">*</span>
+            </label>
+            <input type="tel" id="noWhatsapp" required placeholder="08xxxxxxxxxx" 
+                   class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 text-sm transition">
+          </div>
+
+          <div>
+            <label for="emailPeserta" class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1.5">
+              Alamat Email Aktif <span class="text-rose-500">*</span>
+            </label>
+            <input type="email" id="emailPeserta" required placeholder="nama@kemenag.go.id" 
+                   class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 text-sm transition">
+          </div>
+        </div>
+      </div>
+
+      <!-- KONTROL JUMLAH KARYA MEDIA -->
+      <div class="bg-gradient-to-r from-emerald-50 via-teal-50/50 to-emerald-50 border border-emerald-200/90 rounded-3xl p-5 sm:p-6 shadow-sm">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <div>
+            <h3 class="font-bold text-emerald-950 text-sm sm:text-base flex items-center gap-2">
+              <i class="fa-solid fa-shapes text-emerald-700"></i> Jumlah Media yang Didaftarkan
+            </h3>
+            <p class="text-xs text-slate-600 mt-0.5">Pilih antara 1 sampai 5 karya media pembelajaran.</p>
+          </div>
+          <div class="flex items-center gap-2 bg-white px-4 py-2 rounded-2xl border border-emerald-200 shadow-sm w-fit">
+            <label for="jumlahMedia" class="text-xs font-bold text-slate-700">Total Media:</label>
+            <select id="jumlahMedia" onchange="updateMediaSections()" class="bg-transparent font-bold text-emerald-800 text-sm focus:outline-none cursor-pointer">
+              <option value="1">1 Media</option>
+              <option value="2">2 Media</option>
+              <option value="3">3 Media</option>
+              <option value="4">4 Media</option>
+              <option value="5">5 Media</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="kebanksentralanNotice" class="hidden mt-4 p-4 bg-amber-50/90 border border-amber-300 rounded-2xl text-xs text-amber-900 flex items-start gap-3 shadow-sm">
+          <i class="fa-solid fa-triangle-exclamation text-amber-600 mt-0.5 text-lg shrink-0"></i>
+          <div>
+            <span class="font-bold">Ketentuan Integrasi Wajib:</span> Anda mendaftarkan lebih dari 1 media karya. Sesuai petunjuk teknis DIGITARA 2025, salah satu media yang didaftarkan <strong>harus mencentang integrasi Literasi Keuangan & Kebanksentralan</strong>.
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTAINER DAFTAR MEDIA KARYA -->
+      <div id="mediaContainer" class="space-y-6">
+        <!-- Media forms will be dynamically rendered here -->
+      </div>
+
+      <!-- TOMBOL SUBMIT & STATUS -->
+      <div class="bg-white/95 backdrop-blur-md rounded-3xl shadow-sm border border-emerald-100 p-6 sm:p-8 flex flex-col items-center text-center">
+        <p class="text-xs text-slate-500 max-w-lg mb-5">
+          Pastikan seluruh berkas ZIP dan rincian kurikulum terisi lengkap sebelum dikirim. Proses pengunggahan berkas 25 MB akan disimpan langsung ke Google Drive database panitia.
+        </p>
+
+        <button type="submit" id="btnSubmit" class="w-full sm:w-auto min-w-[260px] px-8 py-3.5 bg-gradient-to-r from-emerald-700 via-teal-700 to-emerald-800 hover:from-emerald-800 hover:to-teal-900 text-white font-bold rounded-2xl shadow-xl shadow-emerald-800/20 hover:shadow-emerald-900/30 transition-all flex items-center justify-center gap-3 transform hover:-translate-y-0.5">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span>Kirim Seluruh Pendaftaran</span>
+        </button>
+
+        <!-- Progress Spinner & Status Info -->
+        <div id="loadingStatus" class="hidden mt-6 w-full max-w-md">
+          <div class="flex items-center justify-center gap-3 text-emerald-800 font-semibold text-sm mb-2">
+            <svg class="animate-spin h-5 w-5 text-emerald-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path>
+            </svg>
+            <span id="loadingText">Sedang memproses & mengunggah berkas...</span>
+          </div>
+          <div class="w-full bg-slate-200 rounded-full h-2.5 overflow-hidden">
+            <div id="progressBar" class="bg-gradient-to-r from-emerald-600 to-teal-600 h-2.5 rounded-full transition-all duration-300 w-1/4"></div>
+          </div>
+        </div>
+      </div>
+
+    </form>
+
+    <!-- Modal Status / Feedback (Pengganti Alert) -->
+    <div id="feedbackModal" class="hidden fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4">
+      <div class="bg-white rounded-3xl max-w-md w-full p-6 sm:p-7 text-center shadow-2xl transform transition-all border border-emerald-100">
+        <div id="modalIconContainer" class="w-16 h-16 rounded-full mx-auto flex items-center justify-center mb-4"></div>
+        <h3 id="modalTitle" class="text-lg font-bold text-slate-800 mb-2"></h3>
+        <p id="modalMessage" class="text-xs sm:text-sm text-slate-600 mb-6 leading-relaxed"></p>
+        <button onclick="closeModal()" id="modalButton" class="w-full py-2.5 px-4 rounded-xl font-bold text-sm text-white transition">
+          Tutup
+        </button>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="mt-12 text-center text-xs text-emerald-900/70 space-y-1.5 pb-6">
+      <p class="font-bold text-emerald-950">&copy; 2025 Tim Pengembang Literasi Provinsi Gorontalo</p>
+      <p>Kantor Wilayah Kementerian Agama Provinsi Gorontalo &bull; SK KAKANWIL 031 Tahun 2025</p>
+    </div>
+  </div>
+
+  <!-- SCRIPT DATA STRUKTUR KURIKULUM & LOGIKA FORM -->
+  <script>
+    // Struktur Kurikulum Madrasah Lengkap Sesuai Permintaan
+    const KURIKULUM = {
+      MI: {
+        nama: "Madrasah Ibtidaiyah (MI)",
+        fase: {
+          A: {
+            nama: "Fase A (Kelas I & II)",
+            mapel: [
+              "Al-Qur'an Hadis",
+              "Akidah Akhlak",
+              "Fikih",
+              "Bahasa Arab",
+              "Pendidikan Pancasila",
+              "Bahasa Indonesia",
+              "Matematika",
+              "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+              "Seni dan Budaya",
+              "Bahasa Inggris (Pilihan/Mulok)"
+            ]
+          },
+          B: {
+            nama: "Fase B (Kelas III & IV)",
+            mapel: [
+              "Al-Qur'an Hadis",
+              "Akidah Akhlak",
+              "Fikih",
+              "Sejarah Kebudayaan Islam (SKI)",
+              "Bahasa Arab",
+              "Pendidikan Pancasila",
+              "Bahasa Indonesia",
+              "Matematika",
+              "Ilmu Pengetahuan Alam dan Sosial (IPAS)",
+              "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+              "Seni dan Budaya",
+              "Bahasa Inggris (Pilihan/Mulok)"
+            ]
+          },
+          C: {
+            nama: "Fase C (Kelas V & VI)",
+            mapel: [
+              "Al-Qur'an Hadis",
+              "Akidah Akhlak",
+              "Fikih",
+              "Sejarah Kebudayaan Islam (SKI)",
+              "Bahasa Arab",
+              "Pendidikan Pancasila",
+              "Bahasa Indonesia",
+              "Matematika",
+              "Ilmu Pengetahuan Alam dan Sosial (IPAS)",
+              "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+              "Seni dan Budaya",
+              "Bahasa Inggris (Pilihan/Mulok)",
+              "Koding dan Kecerdasan Artifisial - MI (Kelas VI)"
+            ]
+          }
+        }
+      },
+      MTs: {
+        nama: "Madrasah Tsanawiyah (MTs)",
+        fase: {
+          D: {
+            nama: "Fase D (Kelas VII, VIII, & IX)",
+            mapel: [
+              "Al-Qur'an Hadis",
+              "Akidah Akhlak",
+              "Fikih",
+              "Sejarah Kebudayaan Islam (SKI)",
+              "Bahasa Arab",
+              "Pendidikan Pancasila",
+              "Bahasa Indonesia",
+              "Matematika",
+              "Ilmu Pengetahuan Alam (IPA)",
+              "Ilmu Pengetahuan Sosial (IPS)",
+              "Bahasa Inggris",
+              "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+              "Informatika",
+              "Koding dan Kecerdasan Artifisial",
+              "Bimbingan dan Konseling",
+              "Seni dan Prakarya"
+            ]
+          }
+        }
+      },
+      MA: {
+        nama: "Madrasah Aliyah (MA)",
+        fase: {
+          E: {
+            nama: "Fase E (Kelas X)",
+            mapel: [
+              // Agama
+              "Al-Qur'an Hadis",
+              "Akidah Akhlak",
+              "Fikih",
+              "Sejarah Kebudayaan Islam (SKI)",
+              "Bahasa Arab",
+              // Umum
+              "Pendidikan Pancasila",
+              "Bahasa Indonesia",
+              "Matematika",
+              "IPA (Biologi, Kimia, Fisika Terpadu)",
+              "IPS (Sosiologi, Ekonomi, Sejarah, Geografi)",
+              "Bahasa Inggris",
+              "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+              "Informatika",
+              "Koding & Kecerdasan Artifisial",
+              "Seni dan Prakarya"
+            ]
+          },
+          F: {
+            nama: "Fase F (Kelas XI & XII)",
+            mapel: [
+              // Mapel Umum (Wajib)
+              "Umum: Al-Qur'an Hadis",
+              "Umum: Akidah Akhlak",
+              "Umum: Fikih",
+              "Umum: Sejarah Kebudayaan Islam (SKI)",
+              "Umum: Bahasa Arab",
+              "Umum: Pendidikan Pancasila",
+              "Umum: Bahasa Indonesia",
+              "Umum: Matematika",
+              "Umum: Bahasa Inggris",
+              "Umum: Sejarah Nasional",
+              "Umum: PJOK",
+              // Pilihan Keagamaan
+              "Pilihan Keagamaan: Ilmu Tafsir",
+              "Pilihan Keagamaan: Ilmu Hadis",
+              "Pilihan Keagamaan: Ushul Fikih",
+              "Pilihan Keagamaan: Bahasa Arab Tingkat Lanjut",
+              // Pilihan MIPA
+              "Pilihan MIPA: Biologi",
+              "Pilihan MIPA: Kimia",
+              "Pilihan MIPA: Fisika",
+              "Pilihan MIPA: Matematika Tingkat Lanjut",
+              // Pilihan IPS
+              "Pilihan IPS: Ekonomi",
+              "Pilihan IPS: Sosiologi",
+              "Pilihan IPS: Geografi",
+              "Pilihan IPS: Antropologi",
+              // Pilihan Bahasa dan Budaya
+              "Pilihan Bahasa: Bahasa Indonesia Tingkat Lanjut",
+              "Pilihan Bahasa: Bahasa Inggris Tingkat Lanjut",
+              "Pilihan Bahasa: Bahasa Asing Lain",
+              // Pilihan Vokasi/Prakarya
+              "Pilihan Vokasi: Prakarya dan Kewirausahaan",
+              "Pilihan Vokasi: Informatika"
+            ]
+          }
+        }
+      }
+    };
+
+    // Render Formulir Dinamis Berdasarkan Jumlah Media dengan Estetika Hijau
+    function updateMediaSections() {
+      const jumlah = parseInt(document.getElementById('jumlahMedia').value, 10);
+      const container = document.getElementById('mediaContainer');
+      const notice = document.getElementById('kebanksentralanNotice');
+
+      if (jumlah > 1) {
+        notice.classList.remove('hidden');
+      } else {
+        notice.classList.add('hidden');
+      }
+
+      let html = '';
+      for (let i = 1; i <= jumlah; i++) {
+        html += `
+          <div class="bg-white/95 backdrop-blur-md rounded-3xl shadow-sm border border-emerald-100 p-6 sm:p-8 relative transition-all" id="cardMedia_${i}">
+            <div class="flex items-center justify-between border-b border-slate-100 pb-4 mb-6">
+              <h2 class="text-base sm:text-lg font-bold text-slate-800 flex items-center gap-2.5">
+                <span class="w-7 h-7 rounded-lg bg-gradient-to-br from-emerald-600 to-teal-700 text-white flex items-center justify-center text-xs font-bold shadow-sm shadow-emerald-700/20">${i}</span>
+                Media Pembelajaran #${i}
+              </h2>
+              <span class="text-xs bg-emerald-50 text-emerald-800 border border-emerald-200 font-semibold px-3 py-1 rounded-full">Karya ${i} dari ${jumlah}</span>
+            </div>
+
+            <!-- Checkbox Integrasi Literasi Keuangan & Kebanksentralan -->
+            <div class="mb-6 p-4 rounded-2xl border border-emerald-200 bg-gradient-to-r from-emerald-50/70 to-teal-50/50">
+              <label class="flex items-start gap-3.5 cursor-pointer">
+                <input type="checkbox" id="kebanksentralan_${i}" class="mt-1 h-4 w-4 rounded text-emerald-600 focus:ring-emerald-500 border-emerald-300">
+                <div class="text-xs">
+                  <span class="font-bold text-emerald-950 block text-sm flex items-center gap-2">
+                    <i class="fa-solid fa-coins text-emerald-600"></i> Integrasi Literasi Keuangan & Kebanksentralan
+                  </span>
+                  <span class="text-slate-600 leading-relaxed mt-0.5 block">
+                    Centang apabila media ini mengangkat muatan literasi keuangan, perbankan, sistem pembayaran digital, pengelolaan rupiah, stabilitas moneter, atau kebanksentralan Bank Indonesia.
+                  </span>
+                </div>
+              </label>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 mb-5">
+              <!-- Jenjang -->
+              <div>
+                <label class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1.5">
+                  Jenjang <span class="text-rose-500">*</span>
+                </label>
+                <select id="jenjang_${i}" required onchange="handleJenjangChange(${i})"
+                        class="w-full px-3 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-xs sm:text-sm bg-white transition">
+                  <option value="">-- Pilih Jenjang --</option>
+                  <option value="MI">Madrasah Ibtidaiyah (MI)</option>
+                  <option value="MTs">Madrasah Tsanawiyah (MTs)</option>
+                  <option value="MA">Madrasah Aliyah (MA)</option>
+                </select>
+              </div>
+
+              <!-- Fase -->
+              <div>
+                <label class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1.5">
+                  Fase <span class="text-rose-500">*</span>
+                </label>
+                <select id="fase_${i}" required onchange="handleFaseChange(${i})" disabled
+                        class="w-full px-3 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-xs sm:text-sm bg-slate-50 cursor-not-allowed transition">
+                  <option value="">-- Pilih Jenjang Dulu --</option>
+                </select>
+              </div>
+
+              <!-- Mata Pelajaran -->
+              <div>
+                <label class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1.5">
+                  Mata Pelajaran <span class="text-rose-500">*</span>
+                </label>
+                <select id="mapel_${i}" required disabled
+                        class="w-full px-3 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-xs sm:text-sm bg-slate-50 cursor-not-allowed transition">
+                  <option value="">-- Pilih Fase Dulu --</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Jenis Media -->
+            <div class="mb-5">
+              <label class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">
+                Jenis Media <span class="text-rose-500">*</span>
+              </label>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <label class="flex items-center gap-3 p-3.5 border border-slate-200 rounded-xl cursor-pointer hover:bg-emerald-50/50 hover:border-emerald-300 transition">
+                  <input type="radio" name="jenisMedia_${i}" value="Media Pembelajaran Interaktif" required class="text-emerald-600 focus:ring-emerald-500">
+                  <span class="text-xs sm:text-sm font-medium text-slate-700">Media Pembelajaran Interaktif</span>
+                </label>
+                <label class="flex items-center gap-3 p-3.5 border border-slate-200 rounded-xl cursor-pointer hover:bg-emerald-50/50 hover:border-emerald-300 transition">
+                  <input type="radio" name="jenisMedia_${i}" value="Lab Maya" required class="text-emerald-600 focus:ring-emerald-500">
+                  <span class="text-xs sm:text-sm font-medium text-slate-700">Lab Maya</span>
+                </label>
+                <label class="flex items-center gap-3 p-3.5 border border-slate-200 rounded-xl cursor-pointer hover:bg-emerald-50/50 hover:border-emerald-300 transition">
+                  <input type="radio" name="jenisMedia_${i}" value="Gim Edukasi" required class="text-emerald-600 focus:ring-emerald-500">
+                  <span class="text-xs sm:text-sm font-medium text-slate-700">Gim Edukasi</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Capaian & Tujuan Pembelajaran -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-5">
+              <div>
+                <label for="cp_${i}" class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1.5">
+                  Capaian Pembelajaran (CP) <span class="text-rose-500">*</span>
+                </label>
+                <textarea id="cp_${i}" required rows="3" placeholder="Tuliskan Capaian Pembelajaran yang disasar..."
+                          class="w-full p-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-xs sm:text-sm leading-relaxed transition"></textarea>
+              </div>
+              <div>
+                <label for="tp_${i}" class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1.5">
+                  Tujuan Pembelajaran (TP) <span class="text-rose-500">*</span>
+                </label>
+                <textarea id="tp_${i}" required rows="3" placeholder="Tuliskan Tujuan Pembelajaran spesifik..."
+                          class="w-full p-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-xs sm:text-sm leading-relaxed transition"></textarea>
+              </div>
+            </div>
+
+            <!-- Deskripsi Media (Maks 1000 kata) -->
+            <div class="mb-5">
+              <div class="flex justify-between items-center mb-1.5">
+                <label for="deskripsi_${i}" class="text-xs font-semibold text-slate-700 uppercase tracking-wider">
+                  Deskripsi Media <span class="text-rose-500">*</span>
+                </label>
+                <span id="wordCountBadge_${i}" class="text-[11px] font-medium text-slate-500">
+                  0 / 1000 kata
+                </span>
+              </div>
+              <textarea id="deskripsi_${i}" required rows="4" oninput="handleWordCount(${i})" placeholder="Jelaskan sinopsis media, alur penggunaan, interaktivitas, dan kebaruan materi (Maksimal 1000 kata)..."
+                        class="w-full p-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-xs sm:text-sm leading-relaxed transition"></textarea>
+            </div>
+
+            <!-- Kolom Upload File ZIP (Maks 25MB) -->
+            <div>
+              <label class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1.5">
+                Unggah Berkas Media (Format .ZIP, Maks. 25 MB) <span class="text-rose-500">*</span>
+              </label>
+              <div class="border-2 border-dashed border-emerald-300/80 rounded-2xl p-6 text-center hover:border-emerald-500 hover:bg-emerald-50/40 transition bg-emerald-50/20">
+                <input type="file" id="fileZip_${i}" accept=".zip,application/zip,application/x-zip-compressed" required
+                       onchange="validateFile(${i})" class="hidden">
+                <label for="fileZip_${i}" class="cursor-pointer block">
+                  <div class="w-12 h-12 rounded-full bg-emerald-100 text-emerald-700 mx-auto flex items-center justify-center text-2xl mb-2">
+                    <i class="fa-solid fa-file-zipper"></i>
+                  </div>
+                  <p class="text-xs sm:text-sm font-bold text-emerald-950">Pilih berkas ZIP dari perangkat</p>
+                  <p class="text-[11px] text-slate-500 mt-1">Ukuran maksimal 25 MB (tersimpan otomatis ke Google Drive panitia)</p>
+                  <p id="fileFeedback_${i}" class="mt-2 text-xs font-bold text-emerald-800 hidden"></p>
+                </label>
+              </div>
+            </div>
+
+          </div>
+        `;
+      }
+      container.innerHTML = html;
+    }
+
+    // Handler Perubahan Jenjang
+    function handleJenjangChange(index) {
+      const jenjangVal = document.getElementById(`jenjang_${index}`).value;
+      const faseSelect = document.getElementById(`fase_${index}`);
+      const mapelSelect = document.getElementById(`mapel_${index}`);
+
+      faseSelect.innerHTML = '<option value="">-- Pilih Fase --</option>';
+      mapelSelect.innerHTML = '<option value="">-- Pilih Fase Dulu --</option>';
+      mapelSelect.disabled = true;
+      mapelSelect.className = "w-full px-3 py-2.5 rounded-xl border border-slate-300 text-xs sm:text-sm bg-slate-50 cursor-not-allowed transition";
+
+      if (!jenjangVal || !KURIKULUM[jenjangVal]) {
+        faseSelect.disabled = true;
+        faseSelect.className = "w-full px-3 py-2.5 rounded-xl border border-slate-300 text-xs sm:text-sm bg-slate-50 cursor-not-allowed transition";
+        return;
+      }
+
+      faseSelect.disabled = false;
+      faseSelect.className = "w-full px-3 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-xs sm:text-sm bg-white transition";
+
+      const fases = KURIKULUM[jenjangVal].fase;
+      for (const key in fases) {
+        const opt = document.createElement('option');
+        opt.value = key;
+        opt.textContent = fases[key].nama;
+        faseSelect.appendChild(opt);
+      }
+    }
+
+    // Handler Perubahan Fase
+    function handleFaseChange(index) {
+      const jenjangVal = document.getElementById(`jenjang_${index}`).value;
+      const faseVal = document.getElementById(`fase_${index}`).value;
+      const mapelSelect = document.getElementById(`mapel_${index}`);
+
+      mapelSelect.innerHTML = '<option value="">-- Pilih Mata Pelajaran --</option>';
+
+      if (!jenjangVal || !faseVal || !KURIKULUM[jenjangVal]?.fase[faseVal]) {
+        mapelSelect.disabled = true;
+        mapelSelect.className = "w-full px-3 py-2.5 rounded-xl border border-slate-300 text-xs sm:text-sm bg-slate-50 cursor-not-allowed transition";
+        return;
+      }
+
+      mapelSelect.disabled = false;
+      mapelSelect.className = "w-full px-3 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-xs sm:text-sm bg-white transition";
+
+      const mapels = KURIKULUM[jenjangVal].fase[faseVal].mapel;
+      mapels.forEach(m => {
+        const opt = document.createElement('option');
+        opt.value = m;
+        opt.textContent = m;
+        mapelSelect.appendChild(opt);
+      });
+    }
+
+    // Hitung Jumlah Kata Deskripsi (Maks 1000 kata)
+    function handleWordCount(index) {
+      const textarea = document.getElementById(`deskripsi_${index}`);
+      const badge = document.getElementById(`wordCountBadge_${index}`);
+      const text = textarea.value.trim();
+      const words = text === "" ? 0 : text.split(/\s+/).length;
+
+      badge.textContent = `${words} / 1000 kata`;
+
+      if (words > 1000) {
+        badge.classList.remove('text-slate-500');
+        badge.classList.add('text-rose-600', 'font-bold');
+      } else {
+        badge.classList.remove('text-rose-600', 'font-bold');
+        badge.classList.add('text-slate-500');
+      }
+    }
+
+    // Validasi Ukuran & Ekstensi File ZIP
+    function validateFile(index) {
+      const input = document.getElementById(`fileZip_${index}`);
+      const feedback = document.getElementById(`fileFeedback_${index}`);
+      const file = input.files[0];
+
+      if (!file) {
+        feedback.classList.add('hidden');
+        return;
+      }
+
+      const isZip = file.name.toLowerCase().endsWith('.zip');
+      const maxSize = 25 * 1024 * 1024; // 25 MB
+
+      if (!isZip) {
+        showModal('Format Berkas Salah', 'Berkas harus dalam format terkompresi .ZIP.', 'error');
+        input.value = '';
+        feedback.classList.add('hidden');
+        return;
+      }
+
+      if (file.size > maxSize) {
+        showModal('Ukuran Berkas Melebihi Batas', `Ukuran file ${file.name} adalah ${(file.size / (1024*1024)).toFixed(2)} MB. Batas maksimal yang diizinkan adalah 25 MB.`, 'error');
+        input.value = '';
+        feedback.classList.add('hidden');
+        return;
+      }
+
+      feedback.textContent = `✓ Terpilih: ${file.name} (${(file.size / (1024 * 1024)).toFixed(2)} MB)`;
+      feedback.classList.remove('hidden');
+    }
+
+    // Helper Konversi File ke Base64 Promise
+    function fileToBase64(file) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => {
+          const base64Data = reader.result.split(',')[1];
+          resolve(base64Data);
+        };
+        reader.onerror = error => reject(error);
+        reader.readAsDataURL(file);
+      });
+    }
+
+    // Modal UI Kustom
+    function showModal(title, message, type = 'info') {
+      const modal = document.getElementById('feedbackModal');
+      const modalTitle = document.getElementById('modalTitle');
+      const modalMsg = document.getElementById('modalMessage');
+      const iconBox = document.getElementById('modalIconContainer');
+      const btn = document.getElementById('modalButton');
+
+      modalTitle.textContent = title;
+      modalMsg.textContent = message;
+
+      if (type === 'success') {
+        iconBox.className = "w-16 h-16 rounded-full mx-auto flex items-center justify-center mb-4 bg-emerald-100 text-emerald-600 text-2xl";
+        iconBox.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+        btn.className = "w-full py-2.5 px-4 rounded-xl font-bold text-sm text-white bg-emerald-600 hover:bg-emerald-700";
+      } else if (type === 'error') {
+        iconBox.className = "w-16 h-16 rounded-full mx-auto flex items-center justify-center mb-4 bg-rose-100 text-rose-600 text-2xl";
+        iconBox.innerHTML = '<i class="fa-solid fa-circle-xmark"></i>';
+        btn.className = "w-full py-2.5 px-4 rounded-xl font-bold text-sm text-white bg-rose-600 hover:bg-rose-700";
+      } else {
+        iconBox.className = "w-16 h-16 rounded-full mx-auto flex items-center justify-center mb-4 bg-emerald-100 text-emerald-700 text-2xl";
+        iconBox.innerHTML = '<i class="fa-solid fa-circle-info"></i>';
+        btn.className = "w-full py-2.5 px-4 rounded-xl font-bold text-sm text-white bg-emerald-600 hover:bg-emerald-700";
+      }
+
+      modal.classList.remove('hidden');
+    }
+
+    function closeModal() {
+      document.getElementById('feedbackModal').classList.add('hidden');
+    }
+
+    // Eksekusi Pengiriman Form
+    async function handleSubmit() {
+      const nama = document.getElementById('namaLengkap').value.trim();
+      const sekolah = document.getElementById('asalSekolah').value.trim();
+      const noWa = document.getElementById('noWhatsapp').value.trim();
+      const email = document.getElementById('emailPeserta').value.trim();
+      const jumlah = parseInt(document.getElementById('jumlahMedia').value, 10);
+
+      // Validasi Dasar
+      if (!nama || !sekolah || !noWa || !email) {
+        showModal('Data Tidak Lengkap', 'Silakan lengkapi seluruh kolom identitas peserta.', 'error');
+        return;
+      }
+
+      // Validasi Kebanksentralan jika karya > 1
+      let hasKebanksentralan = false;
+      const mediaList = [];
+
+      for (let i = 1; i <= jumlah; i++) {
+        const jenjang = document.getElementById(`jenjang_${i}`).value;
+        const fase = document.getElementById(`fase_${i}`).value;
+        const mapel = document.getElementById(`mapel_${i}`).value;
+        const jenisMediaElem = document.querySelector(`input[name="jenisMedia_${i}"]:checked`);
+        const cp = document.getElementById(`cp_${i}`).value.trim();
+        const tp = document.getElementById(`tp_${i}`).value.trim();
+        const deskripsi = document.getElementById(`deskripsi_${i}`).value.trim();
+        const fileInput = document.getElementById(`fileZip_${i}`);
+        const isBank = document.getElementById(`kebanksentralan_${i}`).checked;
+
+        if (isBank) hasKebanksentralan = true;
+
+        if (!jenjang || !fase || !mapel || !jenisMediaElem || !cp || !tp || !deskripsi) {
+          showModal('Data Belum Lengkap', `Mohon lengkapi seluruh informasi kurikulum pada Media #${i}.`, 'error');
+          return;
+        }
+
+        // Validasi kata deskripsi
+        const words = deskripsi.split(/\s+/).length;
+        if (words > 1000) {
+          showModal('Deskripsi Terlalu Panjang', `Deskripsi pada Media #${i} melebihi batas maksimal 1000 kata (${words} kata).`, 'error');
+          return;
+        }
+
+        if (!fileInput.files || fileInput.files.length === 0) {
+          showModal('Berkas Belum Diunggah', `Silakan unggah file berkas ZIP untuk Media #${i}.`, 'error');
+          return;
+        }
+
+        mediaList.push({
+          index: i,
+          jenjang,
+          fase,
+          mapel,
+          jenisMedia: jenisMediaElem.value,
+          cp,
+          tp,
+          deskripsi,
+          terintegrasiKebanksentralan: isBank,
+          file: fileInput.files[0]
+        });
+      }
+
+      if (jumlah > 1 && !hasKebanksentralan) {
+        showModal(
+          'Aturan Kurikulum DIGITARA',
+          'Karena Anda mengirimkan lebih dari 1 media karya, setidaknya 1 karya wajib dicentang dan terintegrasi dengan Literasi Keuangan & Kebanksentralan.',
+          'error'
+        );
+        return;
+      }
+
+      // Tampilkan Indikator Loading
+      const loadingBox = document.getElementById('loadingStatus');
+      const btnSubmit = document.getElementById('btnSubmit');
+      const progressBar = document.getElementById('progressBar');
+      const loadingText = document.getElementById('loadingText');
+
+      loadingBox.classList.remove('hidden');
+      btnSubmit.disabled = true;
+      btnSubmit.classList.add('opacity-50', 'cursor-not-allowed');
+
+      try {
+        loadingText.textContent = "Mengonversi berkas media karya...";
+        progressBar.style.width = "40%";
+
+        const payloadMedia = [];
+        for (let item of mediaList) {
+          const base64Str = await fileToBase64(item.file);
+          payloadMedia.push({
+            jenjang: item.jenjang,
+            fase: item.fase,
+            mapel: item.mapel,
+            jenisMedia: item.jenisMedia,
+            cp: item.cp,
+            tp: item.tp,
+            deskripsi: item.deskripsi,
+            terintegrasiKebanksentralan: item.terintegrasiKebanksentralan ? "Ya" : "Tidak",
+            fileName: `${nama.replace(/[^a-zA-Z0-9]/g, '_')}_Media${item.index}_${item.file.name}`,
+            fileMime: item.file.type || "application/zip",
+            fileBase64: base64Str
+          });
+        }
+
+        loadingText.textContent = "Mengirim data ke Google Drive & Spreadsheet...";
+        progressBar.style.width = "75%";
+
+        const finalPayload = {
+          namaLengkap: nama,
+          asalSekolah: sekolah,
+          noWhatsapp: noWa,
+          emailPeserta: email,
+          jumlahMedia: jumlah,
+          media: payloadMedia
+        };
+
+        // Kirim HTTP POST ke Google Apps Script Web App
+        const response = await fetch(GAS_URL, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'text/plain;charset=utf-8' // Menghindari CORS pre-flight issue pada GAS
+          },
+          body: JSON.stringify(finalPayload)
+        });
+
+        const result = await response.json();
+
+        progressBar.style.width = "100%";
+        if (result.status === 'success') {
+          showModal(
+            'Pendaftaran Berhasil!',
+            'Data pendaftaran dan seluruh berkas media karya Anda telah berhasil diterima dan tersimpan ke Google Drive & Database DIGITARA.',
+            'success'
+          );
+          document.getElementById('digitaraForm').reset();
+          updateMediaSections();
+        } else {
+          showModal('Gagal Mengirim', result.message || 'Terjadi kesalahan pada server Google Apps Script.', 'error');
+        }
+
+      } catch (err) {
+        showModal(
+          'Gagal Mengirim Data',
+          'Pastikan URL pada konstanta GAS_URL sudah dideploy sebagai Web App dengan izin akses "Anyone" (Siapa saja). Rincian galat: ' + err.message,
+          'error'
+        );
+      } finally {
+        loadingBox.classList.add('hidden');
+        btnSubmit.disabled = false;
+        btnSubmit.classList.remove('opacity-50', 'cursor-not-allowed');
+        progressBar.style.width = "25%";
+      }
+    }
+
+    // Inisialisasi awal formulir saat dimuat
+    window.addEventListener('DOMContentLoaded', () => {
+      updateMediaSections();
+    });
+  </script>
+</body>
+</html>
